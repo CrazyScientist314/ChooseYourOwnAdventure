@@ -37,7 +37,7 @@ var game = {
             ]
         },
 
-        front entrance: {
+        front_entrance: {
             message: "You are at the front gate of school",
             choices: [
                 {
