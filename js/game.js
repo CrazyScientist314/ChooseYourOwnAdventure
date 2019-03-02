@@ -10,7 +10,7 @@ var game = {
             choices: [
                 {
                     text: "wake up",
-                    nextLevel: "living room",
+                    nextLevel: "living_room",
                 },
 
                 {
@@ -27,12 +27,12 @@ var game = {
             choices: [
                 {
                     text: "go to school",
-                    nextLevel: "front entrance",
+                    nextLevel: "front_entrance",
                 },
                 
                 {
                     text: "stay home",
-                    nextLevel: "bedroom 2"
+                    nextLevel: "bedroom_2"
                 }
             ]
         },
@@ -67,7 +67,7 @@ var game = {
                 
                 {
                     text: "punch the teacher",
-                    nextLevel: "counseling office"
+                    nextLevel: "counseling_office"
                 }
             ]
         },
@@ -77,12 +77,12 @@ var game = {
             choices: [
                 {
                     text: "finish the rest of the school day",
-                    nextLevel: "front entrance 2"
+                    nextLevel: "front_entrance_2"
                 },
                 
                 {
                     text: "punch the teacher",
-                    nextLevel: "counseling office"
+                    nextLevel: "counseling_office"
                 }
             ]
         },
@@ -92,7 +92,7 @@ var game = {
             choices: [
                 {
                     text: "go home",
-                    nextLevel: "bedroom 2"
+                    nextLevel: "bedroom_2"
                 },
                 
                 {
@@ -107,20 +107,30 @@ var game = {
             choices: [
                 {
                     text: "do homework",
-                    nextLevel: "bedroom night"
+                    nextLevel: "bedroom_night"
                 },
                 
                 {
                     text: "watch Netflix",
-                    nextLevel: "bedroom night"
+                    nextLevel: "bedroom_night"
                 },
                 
                 {
                     text: "stare at the wall/ceiling",
-                    nextLevel: "bedroom night"
+                    nextLevel: "bedroom_night"
                 }
             ]
         },
+        
+        bedroom_night: {
+            message: "It's nightime",
+            choices: [
+                {
+                    text: "go to sleep",
+                    nextLevel: "start"
+                }
+            ]
+        }
         
         
 
